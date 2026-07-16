@@ -1,0 +1,10 @@
+Prueba de la API de reportes:
+
+1. Envié un POST a /reportes con JSON: 
+   {"tipo": "Infraestructura", "descripcion": "Daño en alumbrado público"}
+   El servidor respondió: { "mensaje": "Reporte registrado", "reporte": { "id": 1, "tipo": "Infraestructura", "descripcion": "Daño en alumbrado público" } }
+
+2. Luego consulté GET /reportes y obtuve:
+   [ { "id": 1, "tipo": "Infraestructura", "descripcion": "Daño en alumbrado público" } ]
+
+3. Envié un segundo POST con JSON diferente y al consultar nuevamente GET, el array mostraba ambos reportes.

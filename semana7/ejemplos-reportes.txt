@@ -1,0 +1,11 @@
+Ejemplo 1 - Reporte de seguridad:
+{
+  "tipo": "Seguridad",
+  "descripcion": "Falta de iluminación en la calle 10 con carrera 5, han robado varias veces."
+}
+
+Ejemplo 2 - Reporte de aseo:
+{
+  "tipo": "Aseo",
+  "descripcion": "Recolección de basura no pasa desde hace tres días en el barrio Las Flores."
+}
