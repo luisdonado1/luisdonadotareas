@@ -1,0 +1,13 @@
+Backlog de historias de usuario - Solución comunitaria
+
+Prioridad: 1 (más alta) a 5 (menos alta)
+
+1. [Alta] Como ciudadano, quiero registrar una incidencia (con título, descripción y fecha) para dejar evidencia documentada de un problema en mi comunidad.
+
+2. [Alta] Como coordinador, quiero recibir una notificación en Telegram cuando se registre una nueva incidencia, para poder revisarla y darle seguimiento de manera oportuna.
+
+3. [Media] Como miembro del equipo, quiero consultar la lista de todas las incidencias registradas, para hacer seguimiento y ver el estado de cada una.
+
+4. [Media] Como ciudadano, quiero poder apoyar una causa comunitaria (como una petición o mejora) con un clic, para mostrar mi respaldo sin necesidad de registrarme con datos personales.
+
+5. [Baja] Como administrador, quiero poder cerrar o archivar incidencias que ya fueron resueltas, para mantener el backlog limpio y enfocado en lo activo.

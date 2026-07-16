@@ -1,0 +1,15 @@
+Modelo de datos simple para Petición en 3 Clics:
+
+Entidad 1: Causa
+- id: identificador único de la causa (número)
+- titulo: nombre de la petición
+- descripcion: explicación detallada del problema
+- fecha: fecha en que se creó la causa
+Propósito: Guardar la información principal de la petición ciudadana.
+
+Entidad 2: Apoyo
+- id: identificador único del apoyo
+- causa_id: identificador de la causa a la que pertenece (relación con Causa)
+- nombre: nombre de la persona que apoya (mínimo de datos)
+- fecha: fecha en que se registró el apoyo
+Propósito: Registrar a las personas que respaldan la causa y llevar el conteo de apoyos.

@@ -1,0 +1,23 @@
+Descripción de la interfaz básica de la plataforma comunitaria
+
+La interfaz estará compuesta por las siguientes secciones principales:
+
+1. Formulario para crear una nueva causa:
+   - Campos: Título, Descripción, Fecha (opcional).
+   - Botón "Publicar causa".
+   - Solo visible para usuarios autenticados.
+
+2. Lista de causas disponibles:
+   - Muestra todas las causas activas en formato de tarjetas.
+   - Cada tarjeta incluye: Título, Descripción, Fecha de publicación y contador de apoyos.
+
+3. Botón de apoyo y contador:
+   - Cada causa tendrá un botón "Apoyar esta causa".
+   - Al hacer clic, el contador de apoyos se incrementa en 1 (sin necesidad de recargar la página).
+   - El contador muestra el número total de apoyos recibidos.
+
+4. Acceso a la autenticación:
+   - En la parte superior, enlaces para "Iniciar sesión" y "Registrarse" (si el usuario no está autenticado).
+   - Si el usuario ya inició sesión, se muestra su nombre y un botón de "Cerrar sesión".
+
+La interfaz será limpia, sencilla y no mostrará información privada de los usuarios. Solo se usan datos ficticios o de práctica.

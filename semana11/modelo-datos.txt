@@ -1,0 +1,26 @@
+Modelo de datos para plataforma comunitaria (ejemplo ficticio)
+
+Entidad: Causa
+
+Campos principales:
+- id (identificador único)
+- titulo (nombre de la causa)
+- descripcion (explicación breve)
+- fecha (fecha de publicación)
+- estado (activa / cerrada)
+
+Propósito:
+Guardar las causas comunitarias que los ciudadanos pueden visualizar y apoyar.
+
+--- 
+
+Entidad: Apoyo
+
+Campos principales:
+- id (identificador único)
+- causa_id (relación con la causa apoyada)
+- usuario (nombre o alias del apoyante, sin datos personales reales)
+- fecha (fecha en que se registró el apoyo)
+
+Propósito:
+Registrar los apoyos que recibe cada causa para medir el interés y participación ciudadana.

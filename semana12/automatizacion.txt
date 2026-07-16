@@ -1,0 +1,5 @@
+Automatización simple con Telegram para la plataforma:
+
+- Evento que activa la automatización: Cada vez que se registra un nuevo apoyo en una causa.
+- Mensaje que se envía por Telegram: "¡Nuevo apoyo recibido! La causa [TITULO] ya cuenta con [NUMERO] apoyos. Sigue así, la comunidad está respondiendo."
+- Información que NO debe enviarse por seguridad (principio de minimización): No se deben enviar cédulas, números de teléfono, direcciones de los firmantes, ni comentarios sensibles. Solo se envía el título de la causa y el conteo total de apoyos.

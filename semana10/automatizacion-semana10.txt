@@ -1,0 +1,17 @@
+Flujo de automatización simple con n8n y Telegram (ejemplo práctico)
+
+1. ¿Qué evento activa el flujo?
+   - Evento: Se registra una nueva incidencia en la plataforma (se guarda en la base de datos o en un archivo JSON).
+
+2. ¿Qué mensaje se enviaría a Telegram?
+   - Mensaje: "🔔 Nuevo reporte comunitario: [Título de la incidencia]. Revisa el sistema para más detalles. Fecha: [fecha]."
+
+3. ¿Qué información no debería enviarse por seguridad?
+   - Nombres completos de los ciudadanos.
+   - Números de identificación (cédula, pasaporte, etc.).
+   - Direcciones exactas (solo zona o barrio, sin número de casa).
+   - Números de teléfono o correos electrónicos personales.
+   - Contraseñas, tokens o claves de API.
+   - Cualquier otro dato que pueda identificar personalmente a un usuario.
+
+Nota: El mensaje debe ser genérico y solo contener información agregada o no sensible, como el título de la incidencia y la fecha. Si se requiere más detalle, el usuario debe consultarlo dentro del sistema con autenticación.

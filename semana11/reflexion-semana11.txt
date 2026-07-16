@@ -1,0 +1,9 @@
+Reflexión sobre la importancia de base de datos, autenticación y protección de información
+
+Una plataforma tecnológica que promueve participación ciudadana necesita una base de datos porque le permite almacenar, organizar y consultar toda la información generada por la comunidad (causas, apoyos, comentarios, etc.) de manera estructurada y eficiente. Sin una base de datos, los datos se perderían o serían caóticos.
+
+La autenticación de usuarios es igualmente fundamental, ya que garantiza que cada persona que interactúa con la plataforma sea identificada de forma única. Esto no solo evita suplantaciones, sino que también permite asignar roles (ciudadano, revisor, administrador) y controlar quién puede crear, editar o eliminar contenido.
+
+Por último, la protección de información sensible es un pilar ético y legal. Los ciudadanos confían sus datos (aunque sean mínimos) a la plataforma, y es nuestra responsabilidad resguardarlos de accesos no autorizados, fugas o usos indebidos. Además, cumplir con normas de privacidad (como la ley de protección de datos) fortalece la confianza de la comunidad en el sistema.
+
+En conjunto, estos tres elementos —base de datos, autenticación y seguridad— convierten a la plataforma en una herramienta confiable, ordenada y escalable para fomentar la participación ciudadana sin exponer a los usuarios a riesgos innecesarios.

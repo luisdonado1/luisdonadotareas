@@ -1,0 +1,7 @@
+Explicación sobre autenticación y protección de rutas
+
+El login en una aplicación es el proceso que permite identificar a un usuario mediante credenciales (como usuario y contraseña) antes de otorgarle acceso a funciones restringidas. Una vez autenticado, el sistema sabe quién es y qué permisos tiene.
+
+Algunas rutas deben estar protegidas porque pueden contener información privada, registros internos, datos de la comunidad o acciones administrativas que no deberían estar disponibles para cualquier visitante sin identificar. Si una ruta no está protegida, cualquier persona podría acceder a información sensible o modificar datos sin control.
+
+La información que nunca debe exponerse públicamente incluye: contraseñas (aunque se almacenen encriptadas), documentos de identidad, números de teléfono, direcciones físicas o de correo, tokens de autenticación, claves de API y cualquier otro dato que pueda comprometer la privacidad de los usuarios o la seguridad del sistema.

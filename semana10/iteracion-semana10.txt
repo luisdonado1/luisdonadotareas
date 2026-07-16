@@ -1,0 +1,17 @@
+Iteración simple - Definición de tareas prioritarias
+
+1. ¿Qué 2 tareas del backlog harías primero?
+   - Tarea 1: "Como ciudadano, quiero registrar una incidencia..." (prioridad 1)
+   - Tarea 2: "Como coordinador, quiero recibir una notificación en Telegram..." (prioridad 2)
+
+2. ¿Por qué son las más importantes?
+   - Porque sin el registro de incidencias no hay datos que gestionar. Es la base de toda la plataforma.
+   - La notificación en Telegram es fundamental para que el equipo de coordinación pueda reaccionar rápido ante nuevos reportes. Sin esta alerta, el seguimiento sería pasivo y menos efectivo.
+
+3. ¿Qué significa para ti que una tarea esté "terminada"?
+   Una tarea está terminada cuando cumple con todos estos criterios:
+
+   - Funciona correctamente en el entorno de prueba (sin errores críticos).
+   - Fue probada manualmente por al menos una persona diferente al desarrollador.
+   - El código fue subido a GitHub (commit y push) con un mensaje claro.
+   - La funcionalidad está documentada brevemente (en comentarios o en un archivo README).
