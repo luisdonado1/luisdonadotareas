@@ -1,0 +1,14 @@
+Ejemplo de JSON que podría enviar un ciudadano para reportar una incidencia en la comunidad:
+
+{
+  "tipo": "Alcantarillado",
+  "descripcion": "El desagüe de la calle 5 con carrera 8 está obstruido y se rebalsa cada vez que llueve."
+}
+
+Otro ejemplo posible:
+{
+  "tipo": "Seguridad",
+  "descripcion": "Reporto que el parque principal no tiene iluminación en la noche y se han presentado robos."
+}
+
+Este formato estructurado permite que la comunidad o la alcaldía reciba y organice los reportes fácilmente.
