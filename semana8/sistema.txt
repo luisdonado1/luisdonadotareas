@@ -1,0 +1,7 @@
+Comandos ejecutados:
+
+- uname -a: Muestra información completa del sistema operativo (nombre del kernel, versión, arquitectura, fecha de compilación, etc.). Es útil para saber en qué entorno se está ejecutando el servidor y verificar compatibilidades.
+
+- whoami: Muestra el nombre del usuario actual que está ejecutando la terminal. Es útil para saber con qué permisos se están ejecutando los comandos y verificar si se tiene acceso a ciertos archivos o carpetas.
+
+Conocer esta información al administrar un servidor permite diagnosticar problemas, instalar paquetes correctos y asegurarse de que los permisos sean adecuados.

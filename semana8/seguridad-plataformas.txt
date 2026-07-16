@@ -1,0 +1,7 @@
+5 prácticas de seguridad para una plataforma comunitaria:
+
+1. Usar contraseñas fuertes (mayúsculas, minúsculas, números y símbolos) y cambiarlas periódicamente.
+2. No compartir credenciales de acceso entre usuarios; cada persona debe tener su propia cuenta.
+3. Usar conexiones HTTPS (cifrado) para proteger los datos transmitidos entre el usuario y el servidor.
+4. Mantener actualizado el sistema operativo y todas las aplicaciones para corregir vulnerabilidades conocidas.
+5. Registrar todos los accesos y acciones importantes (logs) para poder rastrear cualquier actividad sospechosa.
